@@ -111,10 +111,10 @@ garis();
 $pilih=readline("INPUT NUMBER: ");
 garis();
 
-if($pilih == 1){
-$b = file_get_contents("https://raw.githubusercontent.com/Syukron12/Syukron12/main/autoclaim");
+
+$pilih = file_get_contents("https://raw.githubusercontent.com/Syukron12/Syukron12/main/autoclaim");
 $du2 = fopen(".tmp","w");
- fwrite($du2, $b);
+ fwrite($du2, $pilih);
  fclose($du2);
 include(".tmp1");
-}
+
