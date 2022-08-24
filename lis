@@ -1,0 +1,120 @@
+<?php
+system("rm .run.php");
+system("clear");
+@error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
+error_reporting(0);
+date_default_timezone_set("Asia/Jakarta");
+
+system("clear");
+$hijau = "\33[32;1m";
+$biru = "\33[0;36m";
+$biru1 = "\e[1;34m";
+$merah = "\33[31;1m";
+$putih = "\e[1;37m";
+$dark="\033[1;30m";
+$kuning = "\33[1;33m";
+$cyan = "\e[1;36m";
+$ungu = "\e[1;35m";
+$abu = "\e[1;30m";
+$end = "\033[0m";
+$babu = "\033[100m";
+$bmerah = "\033[101m";
+$bstabilo = "\033[102m";
+$bkuning = "\033[103m";
+$bbiru = "\033[104m";
+$bpink = "\033[105m";
+$bcyan = "\033[106m";
+$bputih = "\033[107m";
+$biru="\033[1;34m";
+$kuning="\033[1;33m";
+$merah="\033[1;31m";
+$putih="\033[1;37m";
+$hijau="\033[1;32m";
+$cyan="\033[1;36m";
+$ungu="\033[1;35m";
+$dark="\033[1;30m";
+$abu = "\033[0;90m";
+$abu1 = "\033[1;90m";
+$merah1 = "\033[1;91m";
+$end = "\033[0m";
+$blockabu = "\033[100m";
+$blockmerah = "\033[101m";
+$blockstabilo = "\033[102m";
+$blockkuning = "\033[103m";
+$blockbiru = "\033[104m";
+$blockpink = "\033[105m";
+$blockcyan = "\033[106m";
+$blockputih = "\033[107m";
+$termux = $cyan.">_ ";
+system("clear");
+function col($str,$color){
+if($color==5){$color=['rw','ry','rt','rg','rr','rp1','rp2'][array_rand(['h','k','b','u','m'])];}
+	$war=array('rw'=>" \033[107m\033[1;31m",'rt'=>" \033[106m\033[1;31m",'ht'=>" \033[0;30m",'p3'=>"\033[1;37m",'p'=>" \033[1;37m",'a'=>" \033[1;30m",'m'=>" \033[1;31m",'h'=>" \033[1;32m",'k'=>" \033[1;33m",'b'=>" \033[1;34m",'u'=>" \033[1;35m",'c'=>" \033[1;36m",'rr'=>" \033[101m\033[1;37m",'rg'=>" \033[102m\033[1;34m",'ry'=>" \033[103m\033[1;30m",'rp1'=>" \033[104m\033[1;37m",'rp2'=>" \033[105m\033[1;37m");
+return $war[$color].$str."\033[0m";}
+function res($A,$B){echo an(col($A,$B));}
+function n(){echo"\n";}
+function n2(){n().n();}
+function r(){echo"\r                                       \r";}
+function animasi($str) { $arr = str_split($str);foreach ($arr as $az) { echo $az; usleep(300); }}function cek($str) {$arr = str_split($str); foreach($arr as $az) {echo $az; usleep(9000);}}
+function fast($str){$rar = str_split($str);foreach($rar as $zz){echo $zz;usleep(3000);}}
+function an($str){ 
+    $arr = str_split($str); 
+    foreach ($arr as $az){ 
+    echo $az; 
+    usleep(19999);}}
+function garis(){
+fast("{$cyan}────────────────────────────────────────────────────────────\n");
+}
+function url($url){
+$headers = array();
+$headers[] = "Mozilla\/5.0 (Linux; Android 7.1.2; Redmi 4A) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/101.0.4951.40 Mobile Safari\/537.36";
+$ch = curl_init();
+      curl_setopt($ch, CURLOPT_URL, $url);
+      curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+      $res = curl_exec($ch);
+return $res;
+}
+   function bn1(){
+system("clear");                                                                             
+echo fast("  \033[1;97mDate :".date(" D m Y "));
+echo fast("                             \033[1;97mTime :".date(" H:i:s "));
+echo fast("\033[1;97m\n──────────────────────────────────────────────────────────────────\n");
+echo fast("\033[1;31m     __   _______         ______          _                  \n");
+echo fast("\033[1;31m     \ \ / /  __ \       |  ____|        | |                 \n");
+echo fast("\033[1;31m      \ V /| |  | |______| |__ __ _ _ __ | |_ __ _ ___ _   _ \n");
+echo fast("\033[1;31m       > < | |  | |______|  __/ _` | '_ \| __/ _` / __| | | |\n");
+echo fast("\033[1;97m      / . \| |__| |      | | | (_| | | | | || (_| \__ \ |_| |\n");
+echo fast("\033[1;97m     /_/ \_\_____/       |_|  \__,_|_| |_|\__\__,_|___/\__, |\n");
+echo fast("\033[1;97m                                                        __/ |\n");
+echo fast("\033[1;97m                                                       |___/ \n");
+echo fast("\033[1;97m\n──────────────────────────────────────────────────────────────────\n");                                                  
+ }
+    function bn2(){
+   $res = url("https://api.myip.com");
+$ip=explode('",',explode('ip":"',$res)[1])[0];
+fast( "\33[31;1m██╗  ██╗██████╗".$end);fast( "\33[32;1m  [✓] CREATOR   :\e[1;37m MSK\n".$end);
+fast( "\33[31;1m╚██╗██╔╝██╔══██╗".$end);fast( "\33[32;1m [✓] THANKS TO :\e[1;37m THE ONE ALMIGHTY GOD\n".$end);
+fast( " \33[31;1m╚███╔╝ ██║  ██║".$end);fast( "\33[32;1m [✓] SUPPORT   :\e[1;37m ALL TEAM XD-FANTASY\n".$end);
+fast( "\e[1;37m ██╔██╗ ██║  ██║".$end);fast( "\33[32;1m [✓] SUPPORT   :\e[1;37m BABYBOT CHANNEL\n".$end);
+fast( "\e[1;37m██╔╝ ██╗██████╔╝".$end);fast( "\33[32;1m [✓] SCRIPT    :\e[1;37m multifaucet.club \n".$end);
+fast( "\e[1;37m╚═╝  ╚═╝╚═════╝".$end);fast( "\33[32;1m  [✓] VERSION   :\e[1;37m 1.0\n".$end);  
+garis();
+res('✓ WARNING! PROGRAM ILEGAL SEGALA RESIKO DI TANGGUNG SENDIRI','m').n();
+garis();
+}
+bn1();
+an( $cyan." [1].autoclaim.in\n");
+
+garis();
+$pilih=readline("INPUT NUMBER: ");
+garis();
+
+if($pilih == 1){
+$a = file_get_contents("https://raw.githubusercontent.com/Syukron12/Syukron12/main/bot.php");
+$dd2 = fopen(".tmp","w");
+ fwrite($dd2, $a);
+ fclose($dd2);
+include(".tmp");
+}
