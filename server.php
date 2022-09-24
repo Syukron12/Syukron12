@@ -1,2 +1,2 @@
-#autobitco:on|1.0|https:
+#multicoins:on|1.0|https:
 #
