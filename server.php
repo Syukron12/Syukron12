@@ -1,4 +1,4 @@
 #multicoins:on|
-#faucetpk:on|
+#faucetpk:off|
 #oldwor:on|
 #
