@@ -1,5 +1,5 @@
 #multicoins:on|
-#faucetpk:off|
+#faucetpk:on|
 #oldwor:on|
 #kekefaucet:on|
 #flashearn:off|
