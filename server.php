@@ -3,4 +3,5 @@
 #oldwor:on|
 #kekefaucet:on|
 #flashearn:off|
+#cryptosats:on|
 #
