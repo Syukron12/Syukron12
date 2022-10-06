@@ -4,4 +4,5 @@
 #kekefaucet:on|
 #flashearn:off|
 #cryptosats:on|
+#maxfaucet:on|
 #
