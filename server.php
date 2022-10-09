@@ -1,4 +1,4 @@
-#multicoins:on|
+Gambar#multicoins:on|
 #faucetpk:on|
 #oldwor:on|
 #kekefaucet:on|
@@ -6,4 +6,5 @@
 #cryptosats:on|
 #maxfaucet:on|
 #onlarnediyo:on|
+#coinadster:on|
 #
