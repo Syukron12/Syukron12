@@ -5,5 +5,5 @@
 #flashearn:off|
 #cryptosats:on|
 #maxfaucet:on|
-#onlarnediyo:on|
+#onlarnediyo:off|
 #
