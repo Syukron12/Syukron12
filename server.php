@@ -7,4 +7,5 @@ Gambar#multicoins:on|
 #maxfaucet:on|
 #onlarnediyo:on|
 #coinadster:on|
+#ducktycrob:on|
 #
