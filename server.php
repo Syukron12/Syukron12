@@ -8,4 +8,5 @@ Gambar#multicoins:on|
 #onlarnediyo:on|
 #coinadster:on|
 #ducktycrob:on|
+#luckydice:on|
 #
