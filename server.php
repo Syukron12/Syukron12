@@ -9,4 +9,5 @@ Gambar#multicoins:on|
 #coinadster:on|
 #ducktycrob:on|
 #luckydice:on|
+#gardencash:on|
 #
