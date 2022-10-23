@@ -9,6 +9,6 @@ Gambar#multicoins:on|
 #coinadster:on|
 #ducktycrob:on|
 #luckydice:on|
-#gardencash:on|
+#gardencash:off|
 #topfaucet:on|
 #
