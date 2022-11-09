@@ -11,4 +11,5 @@ Gambar#multicoins:on|
 #luckydice:on|
 #gardencash:off|
 #topfaucet:on|
+#harscoin:on|
 #
