@@ -14,4 +14,6 @@ Gambar#multicoins:on|
 #harscoin:on|
 #mrtron:on|
 #cekip:on|
+#payfee:on|
 #
+
