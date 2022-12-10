@@ -15,5 +15,6 @@ Gambar#multicoins:on|
 #mrtron:on|
 #cekip:on|
 #payfee:on|
+#blatcoin:on|
 #
 
