@@ -17,5 +17,7 @@ Gambar#multicoins:on|
 #payfee:on|
 #blatcoin:on|
 #djfaucet:on|
+#faytcoin:on|
 #
+
 
