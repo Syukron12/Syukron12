@@ -16,7 +16,7 @@ Gambar#multicoins:on|
 #cekip:on|
 #payfee:on|
 #blatcoin:on|
-#djfaucet:off|
+#djfaucet:on|
 #faytcoin:on|
 #fpminer:on|
 #
