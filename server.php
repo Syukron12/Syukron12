@@ -12,11 +12,11 @@ Gambar#multicoins:on|
 #gardencash:off|
 #topfaucet:on|
 #harscoin:on|
-#mrtron:on|
+#mrtron:off|
 #cekip:on|
 #payfee:on|
 #blatcoin:on|
-#djfaucet:on|
+#djfaucet:off|
 #faytcoin:on|
 #fpminer:off|
 #
