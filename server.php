@@ -18,7 +18,7 @@ Gambar#multicoins:on|
 #blatcoin:on|
 #djfaucet:on|
 #faytcoin:on|
-#fpminer:on|
+#fpminer:off|
 #
 
 
