@@ -19,6 +19,7 @@ Gambar#multicoins:on|
 #djfaucet:on|
 #faytcoin:on|
 #fpminer:on|
+#daifaucet:on|
 #
 
 
