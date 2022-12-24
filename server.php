@@ -20,6 +20,7 @@ Gambar#multicoins:on|
 #faytcoin:on|
 #fpminer:on|
 #daifaucet:on|
+#yallaclaim:on|
 #
 
 
