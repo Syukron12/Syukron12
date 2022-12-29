@@ -22,6 +22,7 @@ Gambar#multicoins:on|
 #daifaucet:on|
 #yallaclaim:off|
 #fretrx:on|
+#cow4cash:on|
 #
 
 
