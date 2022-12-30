@@ -23,6 +23,7 @@ Gambar#multicoins:on|
 #yallaclaim:off|
 #fretrx:on|
 #cow4cash:on|
+#btcad24:on|
 #
 
 
