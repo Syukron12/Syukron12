@@ -20,7 +20,7 @@ Gambar#multicoins:on|
 #faytcoin:on|
 #fpminer:on|
 #daifaucet:on|
-#yallaclaim:off|
+#yallaclaim:on|
 #fretrx:on|
 #cow4cash:on|
 #btcad24:on|
