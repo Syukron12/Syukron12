@@ -18,12 +18,13 @@ Gambar#multicoins:on|
 #blatcoin:on|
 #djfaucet:on|
 #faytcoin:on|
-#fpminer:on|
+#fpminer:off|
 #daifaucet:on|
 #yallaclaim:on|
 #fretrx:on|
 #cow4cash:on|
 #btcad24:on|
+#fpminer1:on|
 #
 
 
