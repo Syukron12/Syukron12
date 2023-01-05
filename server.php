@@ -25,6 +25,7 @@ Gambar#multicoins:on|
 #cow4cash:on|
 #btcad24:on|
 #fpminer1:on|
+#tronx:on|
 #
 
 
