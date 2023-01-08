@@ -27,4 +27,5 @@ Gambar#multicoins:on|
 #fpminer1:on|
 #tronx:on|
 #bifaucet:on|
+#apkku:on|
 #
