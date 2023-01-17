@@ -28,4 +28,5 @@ Gambar#multicoins:on|
 #tronx:on|
 #bifaucet:on|
 #apkku:on|
+#faucetwin:on|
 #
